@@ -42,11 +42,11 @@ app.get('/', (req, res) => {
     account: accounts.credit,
   })
 })
-.get('/profile', (req, res) => {
-  res.render('profile', {
-    user: users[0],
-  })
-})
+// .get('/profile', (req, res) => {
+//   res.render('profile', {
+//     user: users[0],
+//   })
+// })
 .get('/transfer', (req, res) => {
   res.render('transfer', {
   })
